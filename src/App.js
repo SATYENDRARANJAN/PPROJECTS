@@ -23,7 +23,6 @@ function App() {
                                 key={route.path}
                             />
                         ))}
-
                         <Route path="/" exact>
                             <Home />
                         </Route>

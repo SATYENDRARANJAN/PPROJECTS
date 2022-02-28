@@ -22,10 +22,10 @@ export const Navbar = () => {
             <Scrollbars style={{ width: "100%", height: "100%" }}>
                 <div className="sidebar-header">
                     <h3>
-                        <Link to="/">React-component-depot</Link>
+                        <Link to="/">Kstar Bootcamps</Link>
                     </h3>
                     <p className="mb-0 text-white">{ThemeSwitcher}</p>
-                    <p className="mb-0 mt-2">
+                    {/* <p className="mb-0 mt-2">
                         <div>
                             <a
                                 class="github-button mr-3"
@@ -47,10 +47,11 @@ export const Navbar = () => {
                             style={{ height: "35px" }}
                         ></div>
                     </p>
-                </div>
+                 */}
+                 </div>
 
                 <ul className="list-unstyled components">
-                    <p>
+                    {/* <p>
                         <a
                             href="https://www.youtube.com/channel/UCdItDI6oTgPW7l9WOJI7ItA/videos"
                             target="_blank"
@@ -58,7 +59,7 @@ export const Navbar = () => {
                         >
                             D'Coders Youtube Page
                         </a>
-                    </p>
+                    </p> */}
 
                     {routes
                         .filter((route) => route.navbar !== "")
@@ -108,7 +109,7 @@ export const Navbar = () => {
                         })}
                 </ul>
 
-                <ul className="list-unstyled CTAs">
+                {/* <ul className="list-unstyled CTAs">
                     <li>
                         <a
                             href="https://github.com/codegeous/react-component-depot"
@@ -122,7 +123,7 @@ export const Navbar = () => {
                     <li>
                         <Link to="/built-with-react">Built with react</Link>
                     </li>
-                </ul>
+                </ul> */}
             </Scrollbars>
         </nav>
     );

@@ -32,16 +32,12 @@ const Home = ({ children }) => {
                             ⭐ star on github
                         </a>
                     </div>}
-
-                    {children}
+                    {/* {children} */}
                 </div>
                 <YoutubePlayer />
             </div>
 
-            <a
-                href="https://github.com/codegeous/react-component-depot"
-                target="_blank"
-            >
+            <a href="https://github.com/codegeous/react-component-depot" target="_blank" >
                 <svg
                     width="80"
                     height="80"
